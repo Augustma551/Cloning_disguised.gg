@@ -1,0 +1,43 @@
+@font-face{
+  font-family:Garamond ;
+  src: local('Garamond'), url(./assets/fonts/Garamond/CormorantGaramond-Italic.ttf);
+}
+@font-face{
+  font-family:Garamond-Bold ;
+  src: local('Garamond-Bold'), url(./assets/fonts/Garamond/CormorantGaramond-Bold.ttf);
+}
+@font-face{
+  font-family:Montreal;
+  src: local('Montreal-Bold'), url(./assets/fonts/Montreal/Montreal-Bold.ttf);
+}
+@font-face{
+  font-family: Montreal-Regular;
+  src: local('Montreal-Regular'), url(./assets/fonts/Montreal/Montreal-Regular.woff);
+}
+@font-face{
+  font-family: Montreal-Light;
+  src: local('Montreal-Light'), url(./assets/fonts/Montreal/Montreal-Light.ttf);
+}
+@font-face{
+  font-family: Times;
+  src: local('Times'), url(./assets/fonts/Times/Times\ New\ Normal\ Regular.ttf);
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #FFFFFF;
+  overflow-x: hidden;
+}
+

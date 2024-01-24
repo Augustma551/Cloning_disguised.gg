@@ -1,0 +1,78 @@
+.Bracket-container{
+    width: 100%;
+    height: 180vh;
+    position: relative;
+    bottom: 15rem;
+
+    .bracket{
+        text-align: center;
+        font-family: Montreal;
+        font-size: 240px;
+        line-height: 320px;
+        position: relative;
+        bottom: 25rem;
+        overflow: hidden;
+    
+        .text
+        {
+            --h:1.2em;
+            line-height: var(--h);
+            color: #0000;
+          text-shadow: 
+          0 calc(-1*var(--_t,0em)) #000,
+          0 calc(var(--h) - var(--_t, 0em)) #000;
+          transition:  .5s;
+
+          
+        }
+    
+    
+        .text:hover
+        {
+           --_t: var(--h);
+       
+        }
+    
+        .bracket-right, .bracket-left{
+            transition:  .5s;
+        }
+    }
+    .TnC{
+        font-size: 54px;
+        text-align: center;
+        font-family: Montreal;
+        position: relative;
+        line-height: 68px;
+        right: 20rem;
+        bottom: 10rem;
+        overflow: hidden;
+
+
+    .TnC-text{
+        --h:1.2em;
+        line-height: var(--h);
+        color: #0000;
+        text-shadow: 
+        0 calc(-1*var(--_t,0em)) #000,
+        0 calc(var(--h) - var(--_t, 0em)) #000;
+        transition:  .5s;   
+
+          
+      }
+      
+       
+    .TnC-text:hover{
+        --_t:var(--h);
+      }
+    }
+    p{
+        font-family: Montreal-Light;
+        font-size: 16px;
+        text-transform: uppercase;
+        position: relative;    
+        left: 20px;
+        bottom: 8rem;
+
+     
+    }
+}

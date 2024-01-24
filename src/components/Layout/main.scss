@@ -1,0 +1,30 @@
+.main{
+    height: 100%;
+    video{
+        width: 100%;
+        height: 170vh;
+        object-fit: cover;
+    }
+    .logo{
+        position: absolute;
+        top: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+
+    }
+
+    .TimePicker{
+        position: absolute;
+        display: grid;
+        justify-items:center;
+        align-items:center ;
+        color: white;
+        top: 24rem;
+        right: 10rem;
+    }
+}
+
+

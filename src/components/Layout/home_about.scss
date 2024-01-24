@@ -1,0 +1,132 @@
+.HomeAbout{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10em;
+
+    h1{
+        font-family: Montreal;
+        font-size: 54px;
+        font-weight: bold;
+        line-height: 54px;
+        text-transform: uppercase;
+        letter-spacing: -3px;
+        word-spacing: 5px;
+        padding: 60px 20px;
+
+        .text{
+            word-spacing: 4px;
+        }
+    }
+
+    p{
+        font-family: Garamond;
+        font-size: 64px;
+        font-weight: 400;
+        line-height: 60px;
+        text-align: center;
+        position: relative;
+        left: 22rem;
+        margin: 2rem 25rem 0 25rem;
+    }
+    .img-group  {
+        display: flex;
+        position: relative;
+        padding-top: 15rem;
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        .heart{
+            position: absolute;
+            bottom: 20rem;
+            width: 500px;
+            height: 500px;
+            z-index: 9999;
+
+        }
+
+        .photo-1{
+            position: relative;
+            bottom: 8rem;
+            left: 17rem;
+            width: 600px;
+            height: 537px;
+
+        }
+
+        .photo-2{
+            position: relative;
+            top: 5rem;
+            left: 1rem;
+            width: 523px;
+            height: 514px;
+            transform: rotate(7deg);
+            z-index: 9999;
+
+        }
+        .photo-3{
+            position: relative;
+            right: 9rem;
+            width: 474px;
+            height: 613px;
+        }
+
+       
+    }
+    .table-content{
+        position: relative;
+        left: 52rem;
+        top: 25rem;
+        margin-bottom: 5rem;
+        width: 180px;
+        .child-first{
+            outline: 1px solid black;
+
+            td{        
+                border-right: none;   
+                text-transform: uppercase;
+                font-family: Montreal-Regular;
+                font-size: 9px;
+                font-weight: normal;
+                text-align: left;
+                border-bottom: none;
+                padding-left:10px ;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .outline{
+                border-left: 1px solid black;
+                padding-right: 5px;
+                position: relative;
+                right: 5px;
+                text-align: left;
+            }
+        }
+        .child-second{
+            outline: black 1px solid;
+            td{
+                font-family: Garamond;
+                font-size: 10px;
+                text-align: center;
+                align-items: middle;
+                word-spacing: 20px;
+                line-height: 20px;
+                position: relative;
+                left: 10px;
+            }
+        }
+        .child-third{
+            outline: black 1px solid;
+            td{
+             font-family: Garamond;
+             font-size: 10px;
+             text-align: end;
+             padding-top: 5px;
+             padding-bottom: 5px;
+             position: relative;
+             left:15px;
+             
+            }
+        }
+    }
+
+}

@@ -1,0 +1,93 @@
+.ColorBlackHoodie{
+    width: 100%;
+    height:100%;
+    background-color: white;
+    .Product-desc{
+        p{
+            font-family: Montreal;
+            font-size: 54px;
+            font-weight: bold;
+            line-height: 54px;
+            text-transform: uppercase;
+            letter-spacing: -3px;
+            word-spacing: 5px;
+            padding: 10px 10px;
+        }
+        span{
+            font-size: 10px;
+            line-height: 12px;
+            position: relative;
+            left: 38rem;
+            top: 3rem;
+            padding-bottom: 5rem;
+        }
+    }
+        .Main-products{
+            display: flex;
+            justify-content: flex-end;
+            position: relative;
+            left: 5rem;
+            img{
+                height: 467px;
+                width: 567px;
+            }
+          
+        }
+        .Carousel-preview{
+            display: flex;
+            justify-content: flex-start;
+            position: relative;
+            bottom: 7rem;
+            z-index: 10;
+            img{
+                height: 225px;
+                width: 225px;
+                padding: 10px;
+            }
+        }
+        .Product-asset{
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            bottom: 14rem;
+            z-index: 0;
+            img{
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .Product-related{
+            position: relative;
+            bottom: 15rem;
+            h1{
+                text-align:left;
+                justify-content: left;
+                font-family: Montreal;
+                font-size: 15rem;
+                font-weight: 900;
+                text-transform: uppercase;
+                letter-spacing: -10px;
+                padding-left: 20px;
+            }
+            .Related-container{
+                display: flex;
+                justify-content: center;
+                margin-bottom:20rem ;
+                img{
+                    height: 730px;
+                    width: 708px;
+                }
+            .Related-1,.Related-2{
+                .Product-infos{
+                    display: flex;
+                    justify-content: center;
+                    gap: 85%;
+                    font-size: 10px;
+                    font-family: Montreal-Light;
+                    color: #0F1624;
+                }
+            }
+            }
+        }
+    
+}

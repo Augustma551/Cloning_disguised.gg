@@ -1,0 +1,114 @@
+.introduction{
+    width: 100%;
+    height: 150vh;
+    
+    .headline{
+        font-family: Montreal;
+        font-size: 54px;
+        font-weight: bold;
+        line-height: 54px;
+        letter-spacing: -3px;
+        text-transform: uppercase;
+        margin: 10px 10px 0 10px;
+    }
+    .text{
+        font-family: Garamond;
+        font-size: 60px;
+        line-height: 76px;
+        text-align: center;
+        text-transform: capitalize;
+        margin: 7rem 6.5em;
+    }
+    .tagline{
+        width: 1416px;
+        height: 293px;
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+        font-family: Montreal-Regular;
+        font-size: 10px;
+        line-height: 10px;
+        color: #0f1624;
+        margin-top: 2rem;
+        img{
+            position: absolute;
+            left: -3rem;
+            width: 270px;
+            height: 341px;
+            top: 124rem;
+            transform: rotate(-10deg);
+        }
+
+        #first{
+           margin-left: 10rem;
+        }
+        #second{
+            margin-top: 5rem;
+            margin-right: 5rem;
+        }
+        #third{
+            margin-top:10rem ;
+            margin-left: 5rem;
+        }
+        #fourth{
+            margin-top: 15rem;
+            margin-right: 10rem;
+        }
+    }
+    .table-content{
+        position: absolute;
+        right: 17rem;
+        margin-bottom: 5rem;
+        width: 180px;
+        .child-first{
+            outline: 1px solid black;
+
+            td{        
+                border-right: none;   
+                text-transform: uppercase;
+                font-family: Montreal-Regular;
+                font-size: 9px;
+                font-weight: normal;
+                text-align: left;
+                border-bottom: none;
+                padding-left:10px ;
+                padding-top: 5px;
+                padding-bottom: 5px;
+            }
+            .outline{
+                border-left: 1px solid black;
+                padding-left: 5px;
+                position: relative;
+                right: 5px;
+                text-align: left;
+            }
+        }
+        .child-second{
+            outline: black 1px solid;
+            td{
+                font-family: Garamond;
+                font-size: 10px;
+                text-align: center;
+                align-items: middle;
+                word-spacing: 30px;
+                line-height: 20px;
+                position: relative;
+                left: 10px;
+            }
+        }
+        .child-third{
+            outline: black 1px solid;
+            td{
+             font-family: Garamond;
+             font-size: 10px;
+             text-align: end;
+             padding-top: 5px;
+             padding-bottom: 5px;
+             position: relative;
+             left:5px;
+            }
+        }
+    }
+}
+
+// table componenent need to fixing

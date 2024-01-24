@@ -1,0 +1,68 @@
+.Cart{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  text-align: right;
+  align-items:flex-end;
+  top: 0;
+  left: 62em;
+  background-color:inherit;
+  mix-blend-mode: difference;
+  z-index: 9999;
+
+      .Cart-container{
+        font-size: 54px;
+        text-align: center;
+        font-family: Montreal;
+        font-weight: 900;
+        line-height: 68px;
+        overflow: hidden;
+        background-color: inherit;
+        mix-blend-mode: difference;
+        width: 100%;
+        text-align: end;
+    .Cart-text{
+        --h:1.2em;
+        line-height: var(--h);
+        color: #0000;
+        text-shadow: 
+        0 calc(-1*var(--_t,0em)) #000,
+        0 calc(var(--h) - var(--_t, 0em)) #000;
+        transition:  .5s;         
+
+      }
+    .Cart-text:hover{
+        --_t:var(--h);
+      }
+    }
+
+    .Nightmode-container{
+        font-size: 54px;
+        text-align: center;
+        font-family: Montreal;
+        line-height: 68px;
+        overflow: hidden;
+        mix-blend-mode: difference;
+        background-color: inherit;
+        width: fit-content;
+        block-size: fit-content;
+
+        .Nightmode-text{
+          --h:1.2em;
+          line-height: var(--h);
+          color: #0000;
+          text-shadow: 
+          0 calc(-1*var(--_t,0em)) #000,
+          0 calc(var(--h) - var(--_t, 0em)) #000;
+          transition:  .5s;       
+
+        }
+         
+      .Nightmode-text:hover{
+          --_t:var(--h);
+        }
+      }
+    
+  
+  }
+
